@@ -1,131 +1,46 @@
 {
-	"PiscaLed" :[{
-		"pai":			"Assembly",
-		"nome":			"Pisca Led",
-		"descricao":	"O objetivo é acender e apagar o LED 1 a cada 500 ms.",
-		"image":		"image1.gif",
-		"proteus":		"projeto1.pdsprj",
-		"code":			"code1.asm"
-		,"include":[]
+	"aula1_ex1" :[{
+		"pai":			"Arredondamento",
+		"nome":			"Série de Potência",
+		"descricao":	"Função Scilab que calcule uma função matemática por séries de potências.",
+		"image":		"img1.png",		
+		"code":			"code1.sci",
+		"include":[]
 	}],
 
-	"Display7Seg" :[{
-		"pai":			"Assembly",
-		"nome":			"Display 7 Segmentos",
-		"descricao":	"O objetivo é acender e apagar os LEDs do display de 7 segmentos, apresentando de 0 á F.",
-		"image":		"image2.gif",
-		"proteus":		"projeto2.pdsprj",
-		"code":			"code2.asm"		
-		,"include":[]		
+	"aula1_ex2" :[{
+		"pai":			"Arredondamento",
+		"nome":			"Método Divisão e Médida",
+		"descricao":	"O método “divisão e média”, um antigo método para a aproximação da raiz quadrada de um número positivo a.",
+		"image":		"img2.png",		
+		"code":			"code2.sci",
+		"include":[]
 	}],
 
-	"DadoDigital" :[{
-		"pai":			"Assembly",
-		"nome":			"Dado Digital",
-		"descricao":	"O objetivo é enquanto o botão estiver pressionado, variar de forma aleatória as opções do dado em um intervalo de 500 ms.",
-		"image":		"image3.gif",
-		"proteus":		"projeto3.pdsprj",
-		"code":			"code3.asm"		
-		,"include":[]		
+	"aula1_ex3" :[{
+		"pai":			"Arredondamento",
+		"nome":			"Épsilon da Máquina",
+		"descricao":	"Para computadores, o epsilon da máquina pode ser pensado como o menor número que quando adicionado a 1 resulta um número maior que 1.",
+		"image":		"img3.png",		
+		"code":			"code3.sci",
+		"include":[]
 	}],
 
-	"LedPushe" :[{
-		"pai":			"Assembly",
-		"nome":			"Leds PusheR / PusheD",
-		"descricao":	"O objetivo é acender e apagar os LEDs 1 a cada 500 ms.",
-		"image":		"image4.gif",
-		"proteus":		"projeto4.pdsprj",
-		"code":			"code4.asm"		
-		,"include":[]		
+	"aula1_ex4" :[{
+		"pai":			"Arredondamento",
+		"nome":			"E.R.P.R. Série Infinita",
+		"descricao":	"Série infinita que converge para o valor de f(n) = π4/90 quando n se aproxima do infinito.",
+		"image":		"img4.png",		
+		"code":			"code4.c",
+		"include":[]
 	}],
 
-
-
-
-
-
-
-
-
-
-
-
-	"DispMux" :[{
-		"pai":			"Primeiros Passos em C",
-		"nome":			"Display Multiplexado",
-		"descricao":	"O objetivo é apresenta no display de 4 conjuntos de 7 segmentos o valor 1802.",
-		"image":		"image5.gif",
-		"proteus":		"projeto4.pdsprj",
-		"code":			"code5.c"		
-		,"include":[]		
-	}],
-
-	"DispMuxButton" :[{
-		"pai":			"Primeiros Passos em C",
-		"nome":			"Display Multiplexado com botão",
-		"descricao":	"O objetivo é apresenta no display de 4 conjuntos de 7 segmentos o valor incial 1802. E a medida que o botão é apertado, o valor é acrescido, escrevendo o valor na EEPROM.",
-		"image":		"image6.gif",
-		"proteus":		"projeto6.pdsprj",
-		"code":			"code6.c"		
-		,"include":[]		
-	}],
-
-	"LedButton" :[{
-		"pai":			"Primeiros Passos em C",
-		"nome":			"Led Acionado por Botão",
-		"descricao":	"O objetivo é piscar o LED quando acionar o botão.",
-		"image":		"image8.gif",
-		"proteus":		"projeto8.pdsprj",
-		"code":			"code8.c"		
-		,"include":[]		
-	}],
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	"2B1L" :[{
-		"pai":			"Iniciando com Interrupções",
-		"nome":			"Led Acionado por Interrupção Atráves de 2 Botões",
-		"descricao":	"O objetivo é piscar o LED uma vez quando acionado o botão 0, e ficar piscando o LED indefinidamente quando mantido pressioado o botão 1.",
-		"image":		"image7.gif",
-		"proteus":		"projeto7.pdsprj",
-		"code":			"code7.c"		
-		,"include":[]		
-	}],
-
-	"DispMuxButtonInt" :[{
-		"pai":			"Iniciando com Interrupções",
-		"nome":			"Display Multiplexado com botão ",
-		"descricao":	"O objetivo é apresenta no display de 4 conjuntos de 7 segmentos o valor incial 1802. E a medida que o botão é apertado, o valor é acrescido, escrevendo o valor na EEPROM. Quando o botão é apertado o incremento deve ocorrer através de interrupção.",
-		"image":		"image6.gif",
-		"proteus":		"projeto6.pdsprj",
-		"code":			"code9.c"		
-		,"include":[]		
-	}],
-
-	"encoderLCD" :[{
-		"pai":			"Iniciando com Interrupções",
-		"nome":			"Encoder com Diplay",
-		"descricao":	"O objetivo é apresenta em um display de 4 conjuntos de 7 segmentos, as variações provocadas por um encoder.",
-		"image":		"image10.gif",
-		"proteus":		"projeto10.pdsprj",
-		"code":			"code10.c",
-		"include": 		["globaldefines.h", "atmega328.h", "atmega328.c"]		
-	}]		
-
+	"aula1_ex5" :[{
+		"pai":			"Arredondamento",
+		"nome":			"Equação do 2° c/ precisão",
+		"descricao":	"Visualização do cancelamento subtrativo, visto por uma equação do 2º com subtração de números próximos.",
+		"image":		"img5.png",		
+		"code":			"code5.sci",
+		"include":[]
+	}]
 }

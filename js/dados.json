@@ -42,5 +42,14 @@
 		"image":		"img5.png",		
 		"code":			"code5.sci",
 		"include":[]
+	}],
+
+	"aula2_ex1" :[{
+		"pai":			"Zero de Funções",
+		"nome":			"Apróx. por Diferença",
+		"descricao":	"Visualização do cancelamento subtrativo, visto por uma equação do 2º com subtração de números próximos.",
+		"image":		"img6.png",		
+		"code":			"code6.sci",
+		"include":[]
 	}]
 }

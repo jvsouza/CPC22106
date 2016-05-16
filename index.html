@@ -16,24 +16,22 @@
         <link href="css/style.min.css"  rel="stylesheet" />        
     </head>
     <body>
-        <header class="aba_superior">                        
-            <div class="cx_logo">
-                <div class="botao_comprimento">
-                    <div class="fa fa-bars"></div>
-                </div>
-            </div>            
-            <div class="top-nav">                
-                <ul class="nav pull-right top-menu">
-                    <li class="dropdown">
-                        <a href="https://github.com/jvsouza" class="dropdown-toggle"  aria-expanded="false">
-                            <img src="img/avatar.jpg">
-                            <span class="username">Jonas</span>                            
-                        </a>
-                    </li>                    
-                </ul>                
-            </div>
+        <header class="aba_superior">                                    
+            <section class="logo">
+                <button class="botaoLogo">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </section>
+            <section class="perfil">                
+                <button class="botaoPerfil">                    
+                    <a href="https://github.com/jvsouza">
+                        <img src="img/avatar.jpg" />
+                        <span>Jonas</span>
+                    </a>                    
+                </button>
+            </section>
         </header>
-        <article class="aba_abaixo">
+        <article class="aba_inferior">
             <section class="menu">                
                 <ul class="sidebar-menu">
                     <li class="sub-menu">
@@ -49,7 +47,7 @@
                     <li class="sub-menu">
                         <a  class=""><span>Zero de Funções</span><i class="fa fa-arrow-right iright"></i></a>
                         <ul class="sub">
-                            <li class="sub-menu-sub" value="aula2_ex1"><a class=""><span>Gráfico - Bungee Jumping</span></a></li>
+                            <li class="sub-menu-sub" value="aula2_ex1"><a class=""><span>Apróx. por Diferença</span></a></li>
                             <li class="sub-menu-sub" value="aula2_ex2"><a class=""><span>Bisseção - Bungee Jumping</span></a></li>
                             <li class="sub-menu-sub" value="aula2_ex3"><a class=""><span>Bisseção Genérica</span></a></li>
                             <li class="sub-menu-sub" value="aula2_ex4"><a class=""><span>Bisseção physicalProblem</span></a></li>
@@ -92,11 +90,10 @@
                             <li class="sub-menu-sub" value="aula5_ex5"><a class=""><span>Corrente de Malhas c/ Cholesky</span></a></li>                            
                         </ul>
                     </li>
-
                 </ul>
             </section>
             <section class="principal none">                                
-                <ol class="breadcrumb bg-success">
+                <ol class="breadcrumb">
                     <li><a>CPC2106</a></li>
                     <li><a  id="mudar_1"></a></li>
                     <li class="active"><span id="mudar_2"></span></li>
@@ -107,10 +104,8 @@
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-heading">Imagem da Resolução</div>
-                    <div class="panel-body text-center imgProteus" id="zoom">
-                        <a id="mudar_5" href="">
-                            <div class="tool_tip2">Baixar o .SCE</div>
-                        </a>
+                    <div class="panel-body text-center imgProject" id="zoom">
+                        <a id="mudar_5" href=""><div class="toolTip_img">Baixar o .SCE</div></a>
                         <img src="" with="950" height="400" id="mudar_4">       
                     </div>
                 </div>
@@ -122,7 +117,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Script Proposto</div>
                     <div class="panel-body precode">
-                        <div class="tool_tip">Copiar o Script</div>                        
+                        <div class="toolTip_code">Copiar o Script</div>                        
                         <pre class="prettyprint linenums"></pre>
                     </div>
                 </div>

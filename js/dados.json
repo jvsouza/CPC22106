@@ -3,7 +3,7 @@
 		"pai":			"Arredondamento",
 		"nome":			"Série de Potência",
 		"descricao":	"Função Scilab que calcule uma função matemática por séries de potências.",
-		"image":		"img1.png",		
+		"image":		"img1.png",
 		"code":			"code1.sci",
 		"include":[]
 	}],
@@ -12,7 +12,7 @@
 		"pai":			"Arredondamento",
 		"nome":			"Método Divisão e Médida",
 		"descricao":	"O método “divisão e média”, um antigo método para a aproximação da raiz quadrada de um número positivo a.",
-		"image":		"img2.png",		
+		"image":		"img2.png",
 		"code":			"code2.sci",
 		"include":[]
 	}],
@@ -21,7 +21,7 @@
 		"pai":			"Arredondamento",
 		"nome":			"Épsilon da Máquina",
 		"descricao":	"Para computadores, o epsilon da máquina pode ser pensado como o menor número que quando adicionado a 1 resulta um número maior que 1.",
-		"image":		"img3.png",		
+		"image":		"img3.png",
 		"code":			"code3.sci",
 		"include":[]
 	}],
@@ -30,7 +30,7 @@
 		"pai":			"Arredondamento",
 		"nome":			"E.R.P.R. Série Infinita",
 		"descricao":	"Série infinita que converge para o valor de f(n) = π4/90 quando n se aproxima do infinito.",
-		"image":		"img4.png",		
+		"image":		"img4.png",
 		"code":			"code4.c",
 		"include":[]
 	}],
@@ -39,17 +39,157 @@
 		"pai":			"Arredondamento",
 		"nome":			"Equação do 2° c/ precisão",
 		"descricao":	"Visualização do cancelamento subtrativo, visto por uma equação do 2º com subtração de números próximos.",
-		"image":		"img5.png",		
+		"image":		"img5.png",
 		"code":			"code5.sci",
 		"include":[]
 	}],
 
 	"aula2_ex1" :[{
-		"pai":			"Zero de Funções",
-		"nome":			"Apróx. por Diferença",
-		"descricao":	"Visualização do cancelamento subtrativo, visto por uma equação do 2º com subtração de números próximos.",
-		"image":		"img6.png",		
+		"pai":			"Erros e ponto flutuante",
+		"nome":			"Truncamento e erro total",
+		"descricao":	"Caso do BungeeJump apresentando os erros envolvidos.",
+		"image":		"img6.png",
 		"code":			"code6.sci",
 		"include":[]
+	}],
+
+	"aula2_ex2" :[{
+		"pai":			"Erros e ponto flutuante",
+		"nome":			"Truncamento e erro total",
+		"descricao":	"Expansões em série de Taylor, com os erros relativos.",
+		"image":		"img7.png",
+		"code":			"code7.sci",
+		"include":[]
+	}],
+
+	"aula2_ex3" :[{
+		"pai":			"Erros e ponto flutuante",
+		"nome":			"Truncamento e erro total",
+		"descricao":	"Aproximação por diferença: prograssiva, regressiva e centrada com derivada primeira.",
+		"image":		"img8.png",
+		"code":			"code8.sci",
+		"include":[]
+	}],
+
+	"aula2_ex4" :[{
+		"pai":			"Erros e ponto flutuante",
+		"nome":			"Truncamento e erro total",
+		"descricao":	"Aproximação por diferença centrada com derivada segunda2.",
+		"image":		"img9.png",
+		"code":			"code9.sci",
+		"include":[]
+	}],
+
+	"aula2_ex5" :[{
+		"pai":			"Erros e ponto flutuante",
+		"nome":			"Truncamento e erro total",
+		"descricao":	"Aproximação por diferença centrada, com passo decrescivo e gráfico ilustrativo.",
+		"image":		"img10.png",
+		"code":			"code10.sci",
+		"include":[]
+	}],
+
+
+	"aula3_ex1" :[{
+		"pai":			"Zeros de funções reais",
+		"nome":			"Método da bisseção",
+		"descricao":	"Metodo Grafico.",
+		"image":		"img6.png",
+		"code":			"code6.sci",
+		"include":[]
+	}],
+
+	"aula3_ex2" :[{
+		"pai":			"Zeros de funções reais",
+		"nome":			"Método da bisseção",
+		"descricao":	"Método da bisseção generiaca.",
+		"image":		"img7.png",
+		"code":			"code7.sci",
+		"include":[]
+	}],
+
+	"aula3_ex3" :[{
+		"pai":			"Zeros de funções reais",
+		"nome":			"Método da bisseção",
+		"descricao":	"Problema fisico.",
+		"image":		"img8.png",
+		"code":			"code8.sci",
+		"include":[]
+	}],
+
+	"aula4_ex1" :[{
+		"pai":			"Zeros de funções reais",
+		"nome":			"Método de Newton-Raphson e Método da Secante",
+		"descricao":	"Interação de Ponto Fixo Simples",
+		"image":		"img12.png",
+		"code":			"code12.sci",
+		"include":[]
+	}],
+
+	"aula4_ex2" :[{
+		"pai":			"Zeros de funções reais",
+		"nome":			"Método de Newton-Raphson e Método da Secante",
+		"descricao":	"Newton-Raphson Raíz Exata.",
+		"image":		"imgXXXXXXX.png",
+		"code":			"codeXXXXXX.sci",
+		"include":[]
+	}],
+
+	"aula4_ex3" :[{
+		"pai":			"Zeros de funções reais",
+		"nome":			"Método de Newton-Raphson e Método da Secante",
+		"descricao":	"Funcao Newton-Raphson.",
+		"image":		"img11.png",
+		"code":			"code11.sci",
+		"include":[]
+	}],
+
+	"aula4_ex4" :[{
+		"pai":			"Zeros de funções reais",
+		"nome":			"Método de Newton-Raphson e Método da Secante",
+		"descricao":	"Metodo da Secante.",
+		"image":		"img13.png",
+		"code":			"code13.sci",
+		"include":[]
+	}],
+
+
+
+
+
+
+
+
+
+
+
+	"aula4_ex5" :[{
+		"pai":			"Zeros de funções reais",
+		"nome":			"Método de Newton-Raphson e Método da Secante",
+		"descricao":	"Aproximação por diferença centrada, com passo decrescivo e gráfico ilustrativo.",
+		"image":		"img10.png",
+		"code":			"code10.sci",
+		"include":[]
+	}],
+
+	"aula4_ex6" :[{
+		"pai":			"Zeros de funções reais",
+		"nome":			"Método de Newton-Raphson e Método da Secante",
+		"descricao":	"Aproximação por diferença centrada com derivada segunda2.",
+		"image":		"img9.png",
+		"code":			"code9.sci",
+		"include":[]
+	}],
+
+	"aula4_ex7" :[{
+		"pai":			"Zeros de funções reais",
+		"nome":			"Método de Newton-Raphson e Método da Secante",
+		"descricao":	"Aproximação por diferença centrada, com passo decrescivo e gráfico ilustrativo.",
+		"image":		"img10.png",
+		"code":			"code10.sci",
+		"include":[]
 	}]
+
+
+
 }

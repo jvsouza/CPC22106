@@ -188,8 +188,44 @@
 		"image":		"img10.png",
 		"code":			"code10.sci",
 		"include":[]
-	}]
+	}],
 
+
+
+
+
+
+
+
+
+
+
+	"aula5_ex1" :[{
+		"pai":			"Gauss",
+		"nome":			"Gauss sem pivotamento",
+		"descricao":	"...",
+		"image":		"img14.png",
+		"code":			"code14.sci",
+		"include":[]
+	}],
+
+	"aula5_ex2" :[{
+		"pai":			"Gauss",
+		"nome":			"Gauss com pivotamento",
+		"descricao":	"...",
+		"image":		"img15.png",
+		"code":			"code15.sci",
+		"include":[]
+	}],
+
+	"aula5_ex3" :[{
+		"pai":			"Gauss",
+		"nome":			"Correntes de malha",
+		"descricao":	"...",
+		"image":		"img16.png",
+		"code":			"code16.sci",
+		"include":[]
+	}]
 
 
 }

@@ -1,7 +1,8 @@
-function [raiz,n] = secante( fun, pert, es, maxi)
+function [raiz,n] = secante( fun, pert, es, maxi )
+clc;
 
 //-----------------------------------------------------------------------------
-// Cabecalho-------------------------------------------------------------------
+// Cabeçalho-------------------------------------------------------------------
 //
 //  Localiza a raíz de uma funcao pelo Método Secante
 //
@@ -15,8 +16,11 @@ function [raiz,n] = secante( fun, pert, es, maxi)
 //
 //  Exemplo de chamada:
 //
-//  fun = 'log(x) +x'
-//  [ raiz, n ] = secante( fun, 1D-6, 0.1 )
+//  fun = 'log(x) + x'
+//  [ raiz, n ] = secante( fun, 1D-8, 0.0001 )
+//  Entre com o limite inferior de x: 0.1
+//  Entre com o limite inferior de x: 1
+//  Entre com as aprox. iniciais x0 = 0.6
 //
 
 //-----------------------------------------------------------------------------
@@ -38,37 +42,36 @@ function [raiz,n] = secante( fun, pert, es, maxi)
 
 //-----------------------------------------------------------------------------
 // Variaveis Recebidas---------------------------------------------------------
-    //a = input("Entre com o limite inferior de x: ");
-    //b = input("Entre com o limite superior de x: ");
-    //x = linspace( a, b, 100 );
+    printf("\nSECANTE MODIFICADA\n\n");
+    a = input("Entre com o limite inferior de x: ");
+    b = input("Entre com o limite superior de x: ");
+    x = linspace( a, b, 100 );
+    fx = evstr(fun);
 
-    //fx = evstr(fun);
-    //plot(x, fx);
-    //xgrid;
+    clf();
+    plot( x, fx );
+    xgrid()
 
     //entrada do valor inicial
-    //xo = input("Entre com a aproximação inicial da raiz: ");
-    x = x0;
+    x = input("Entre com a aproximação inicial da raiz: ");
 
 //-----------------------------------------------------------------------------
 // Desenvolvimento-------------------------------------------------------------
+    printf("\nn \txi\t\t|ea|%%\n");
     while ( ea > es )  &  ( n < maxi ) do
         f1 = evstr(fun);
-        temp = x
-        x = x*pert + x;
-
+        x = x + pert;
         f2 = evstr(fun);
-        x = temp;
-
-        xi = x - (f1*pert*x/(f2 - f1));
+        xi = ( x - pert ) - ( f1 * pert )/( f2 - f1 );
 
         if ( xi ~= 0 ) then
             ea = abs((xi-x)/xi) * 100;
         end
 
-        printf("%f\t%f\t%f\n", n, xi, ea);
-        x = xi;
         n = n + 1;
+        printf("%d\t%f\t%f\n", n, xi, ea);
+        x = xi;
+
     end
 
     if ( n >= maxi ) then
@@ -78,3 +81,13 @@ function [raiz,n] = secante( fun, pert, es, maxi)
     end
 
 endfunction
+
+
+
+
+
+
+
+
+
+
